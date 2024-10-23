@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/Game/Framework/Types"
+                "${workspaceFolder}/Game/Framework/Types",
+                "${workspaceFolder}/Game/Framework"
             ],
             "defines": [
                 "_DEBUG",

@@ -17,6 +17,7 @@ public:
 
     virtual void performAttack () = 0;
     virtual void performDefend () = 0;
+    virtual void performHeal () = 0;
 
     HP getBaseHealth () const { return BaseHealth; }
     HP getCurrentHealth ()  { return CurrentHealth; }
