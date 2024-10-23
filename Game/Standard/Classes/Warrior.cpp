@@ -1,26 +1,23 @@
 #include <iostream>
-#include "Types.h"
-#include "Human.h"
+#include "../../Framework/Types/Types.h"
+#include "../../Framework/Human.h"
+#include "../../Framework/ClassHeaders/Warrior.h"
 
-class Warrior : public Human {
-public:
-    Warrior() : Human(10, 20, 20, 10) {};
+    Warrior::Warrior() : Human(10,20,20,10) {}
 
-    virtual ~Warrior() {}
-
-    virtual void performAttack () override {
+    void Warrior::performAttack ()  {
         // Warrior Attack Logic
+        std::cout << "Warrior attacks!" << std::endl; // Placeholder logic
     }
 
-    virtual void performDefend () override {
+    void Warrior::performDefend ()  {
         // Warrior Defend Logic
+        std::cout << "Warrior attacks!" << std::endl; // Placeholder logic
     }
 
-    virtual void performHeal () override {
+    void Warrior::performHeal ()  {
         // Warrior Heal logic
+        std::cout << "Warrior heals!" << std::endl; // Placeholder logic
     }
 
 
-
-
-};

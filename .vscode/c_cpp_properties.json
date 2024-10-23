@@ -4,18 +4,26 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/Game/Framework/Types",
-                "${workspaceFolder}/Game/Framework"
+                "${workspaceFolder}/Game/**",
+                "${workspaceFolder}/Tests/**",
+                "${workspaceFolder}/Game/Framework/**",
+                "${workspaceFolder}/Game/Framework/Types/**",
+                "${workspaceFolder}/Game/Framework/ClassHeaders/**",
+                "${workspaceFolder}/Game/Standard/**",
+                "${workspaceFolder}/Game/Standard/Classes/**",
+                "${workspaceFolder}/Tests/IntegrationTests/**",
+                "${workspaceFolder}/Tests/UnitTests/**"
+                
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": null,
+            "compilerPath": "C:/mingw64/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4

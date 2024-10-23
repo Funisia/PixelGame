@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Types.h"
-#include "Human.h"
+#include "../../Game/Framework/Types/Types.h"
+#include "../../Game/Framework/Human.h"
 
 class Rogue : public Human {
 public: 

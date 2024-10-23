@@ -1,6 +1,6 @@
 #ifndef HUMAN_H
 #define HUMAN_H
-#include "Types.h"
+#include "../../Game/Framework/Types/Types.h"
 
 // Responsibilities
 // 1. Know/Return Base HP, MP, DEF, and ATK
